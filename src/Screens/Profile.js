@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { View, Text,TouchableOpacity,StyleSheet,ScrollView,Image } from 'react-native';
 import axios from 'axios';
-import { baseProps } from "react-native-gesture-handler/lib/typescript/handlers/gestureHandlers";
-
 
 //Counter Ever1 => Ever5
 const CounterEver = ({ navigation }) => {
